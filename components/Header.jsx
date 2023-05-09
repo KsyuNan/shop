@@ -17,7 +17,7 @@ const Header = () => {
               <Link href='/favourite'>Favourite</Link>
             </li>
             <li>
-              <Link href='/'>Lifestyle</Link>
+              <Link href='/lifestyle'>Lifestyle</Link>
             </li>
             <li>
               <Link href='/sign_up'>SignUp</Link>

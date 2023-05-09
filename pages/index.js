@@ -21,7 +21,6 @@ export default function Home() {
         <Header />
         <Main />
         <Partners />
-        <h1>Hello world</h1>
         <Footer/>
       </main>
     </>

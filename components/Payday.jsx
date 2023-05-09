@@ -1,11 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
-import payday from '../public/fashion/payday.png'
+import payday from '../public/payday.png'
 const Payday = () => {
   return (
     <div className="payday">
         <div className="payday_img">
-            <Image alt="img" href="/public/fashion/payday.png"/>
+            <Image alt="img" src={payday}/>
         </div>
         <div className="payday__title"> 
            <h1><span className="white">PAYDAY</span> SALE NOW</h1>
