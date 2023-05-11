@@ -17,10 +17,12 @@ const FashionPage = () => {
             width={300}
             heigth={500}
             src={hoodie} />
-          <h6>Hoodies & Sweetshirt</h6>
-          <p>
-            Explore Now!
-          </p>
+          <div className='fashion__card-sub'>
+            <h6>Hoodies & Sweetshirt</h6>
+            <p>
+              Explore Now!
+            </p>
+          </div>
         </div>
         <div className='fashion__card-item'>
           <Image
@@ -28,10 +30,12 @@ const FashionPage = () => {
             width={300}
             heigth={500}
             src={coats} />
-          <h6>Coats & Parkas</h6>
-          <p>
-            Explore Now!
-          </p>
+          <div className='fashion__card-sub'>
+            <h6>Coats & Parkas</h6>
+            <p>
+              Explore Now!
+            </p>
+          </div>
         </div>
         <div className='fashion__card-item'>
           <Image
@@ -39,10 +43,13 @@ const FashionPage = () => {
             width={300}
             heigth={500}
             src={shirt} />
-          <h6>Tees & T-Shirt</h6>
-          <p>
-            Explore Now!
-          </p>
+          <div className='fashion__card-sub'>
+            <h6>Tees & T-Shirt</h6>
+            <p>
+              Explore Now!
+            </p>
+            <div className='arrow'></div>
+          </div>
         </div>
       </div>
       <Payday />

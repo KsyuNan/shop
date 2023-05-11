@@ -1,10 +1,15 @@
 import Link from 'next/link'
-import Image from 'next/link'
+//import Image from 'next/link'
+//import logo from '../public/logo.svg'
 const Header = () => {
   return (
     <header className='header'>
       <div className="navTop">
-        <div className="logo">Fashion</div>
+        <div className="logo">
+          {/* 
+          <Image alt={'logo'} src={logo} width={'100%'} height={'auto'}></Image>
+  */}
+          Fashion</div>
         <nav >
            <ul>
             <li>

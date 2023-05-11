@@ -5,7 +5,8 @@ const Payday = () => {
   return (
     <div className="payday">
         <div className="payday_img">
-            <Image alt="img" src={payday}/>
+            <span></span>
+            <Image alt="img" src={payday} width={600} height={'auto'}/>
         </div>
         <div className="payday__title"> 
            <h1><span className="white">PAYDAY</span> SALE NOW</h1>

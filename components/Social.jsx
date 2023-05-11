@@ -1,14 +1,31 @@
 import Link from "next/link"
+
+const Social = () => {
+    return (
+        <div className="socialIcon">
+                <ul className="socialIcon__list">
+                    <li>
+                        <Link href={'/'}>1</Link>
+                    </li>
+                    <li>
+                        <Link href={'/'}>2</Link>
+                    </li>
+                    <li>
+                        <Link href={'/'}>3</Link>
+                    </li>
+                    <li>
+                        <Link href={'/'}>4</Link>
+                    </li>
+                </ul>
+        </div>
+    )
+}
+
+export default Social
+
+{/*
 //import { TiSocialInstagram, TiSocialFacebook, TiSocialTwitter, TiSocialLinkedin} from 'react-icons/ti'
 
-const Footer = () => {
-  <footer>
-    <div className="footer">
-        <div>
-            <Link> Fashion</Link>
-            <p>Complete your style with awesome clothes from us.</p>
-            <div className="socialIcon">
-             {/*
                 <ul>
                     <li>
                         <Link  href="/">
@@ -32,10 +49,3 @@ const Footer = () => {
                     </li>
                 </ul>
 */}
-            </div>
-        </div>
-    </div>
-  </footer>
-}
-
-export default Footer

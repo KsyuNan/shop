@@ -8,10 +8,11 @@ const Main = () => {
           <div className="main">
              <div className="main__title">
                <h1><span className="white">LET’S</span> EXPLORE <span className="yellow">UNIQUE</span> CLOTHES.</h1>
-               <h6>Live for Influential and Innovative fashion!</h6>
-             
+               <h6>Live for Influential and Innovative fashion!</h6>      
              <div className="main__title-action">
-               <Link href='/' className="mainBtn">Shop Now</Link>
+               <div>
+               <button href='/' className="mainBtn">Shop Now</button>
+               </div>
                <div className="yellow-shape"></div>
              </div>
              </div>

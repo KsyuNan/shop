@@ -5,7 +5,8 @@ import fav_2 from '../public/fav_2.png'
 const Favourite = () => {
   return (
     <div className='favourite section'>
-      <div className='favourite__title'>
+      <div className='favourite__title title'>
+        <span></span>
         <h3>Young’s Favourite</h3>
       </div>
       <div className='favourite__card'>

@@ -1,27 +1,23 @@
-.header {
-  padding: 15px 30px;
+.payday__img {
+  margin: 2rem;
 }
 
-.logo {
-  color: yellow;
-}
+/*
+.navTop
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
 
-.navTop {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.navTop ul {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  list-style: none;
-  gap: 3em;
-  align-content: center;
-}
-.navTop ul li {
-  font-weight: 600;
-  font-size: 2rem;
-  display: inline-block;
-}/*# sourceMappingURL=Home.module.css.map */
+  ul
+    display: flex
+    flex-direction: row
+    text-decoration: none
+    list-style: none
+    gap: 3em
+    align-content: center
+    li
+      font-weight: 600
+      font-size: 2rem
+      display: inline-block
+*//*# sourceMappingURL=Home.module.css.map */
