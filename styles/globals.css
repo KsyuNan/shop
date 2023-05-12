@@ -356,22 +356,40 @@ input {
 }
 
 /*favourite  section */ 
-.favourite__title {
-   padding-bottom: 4em;
-}
 
+.favourite__title {
+ padding-bottom: 4em;
+}
 
 .favourite__card {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
- text-align: center;
+  justify-content: left;
+  gap: 2em;
 }
 
-.section {
-  padding: 3em;
+.favourite__card-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
 }
+
+.favourite__card-item-sub {
+ padding: 1em 0;
+}
+
+.favourite__card-item-sub p {
+  padding: 0;
+}
+
+.favourite__card-item::after {
+  content: url('../public/arrow.png');
+  position: absolute;
+  bottom: 2em;
+  right: 0;
+}
+
 
 footer {
   background-color: #000000;
@@ -524,6 +542,7 @@ justify-content: space-around;
   align-items: flex-start;
   gap: 5em;
   padding: 4em 3.8em;
+  bottom: 0 fixed;
 }
 
 .footer__main {
